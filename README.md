@@ -6,9 +6,9 @@ Replicación del modelo de downscaling de precipitación **GeoDS** (Brenner et a
 
 Este repositorio replica tres piezas clave del artículo original de GeoDS:
 
-- **Climatología y anomalías (Alpes)** — comparación espacial entre el dato interpolado (REF), la salida downscaleada del modelo (DS) y las observaciones reales (APGD).
-- **Validación cuantil-cuantil (QQ-plot)** — compara la distribución estadística completa de REF y DS contra las observaciones, con R² y MAE como métricas de ajuste.
-- **Generalización a Groenlandia** — se aplicó la misma lógica a un dominio con topografía completamente distinta (hielo/glaciares en vez de montaña). Al adaptar el script original se encontraron y resolvieron dos problemas reales de los datos entregados: las rutas de archivos precalculados del autor no existían (se recalculó la climatología directamente de los datos crudos) y el dominio de Groenlandia no traía coordenadas lon/lat explícitas (se derivaron con `pyproj` a partir de la proyección incluida en los archivos). Groenlandia tampoco cuenta con un dataset de observaciones, por lo que ahí la comparación se hace entre REF y DS, no contra observaciones.
+- **Climatología y anomalías (Alpes)**  comparación espacial entre el dato interpolado (REF), la salida downscaleada del modelo (DS) y las observaciones reales (APGD).
+- **Validación cuantil-cuantil (QQ-plot)**  compara la distribución estadística completa de REF y DS contra las observaciones, con R² y MAE como métricas de ajuste.
+- **Generalización a Groenlandia** se aplicó la misma lógica a un dominio con topografía completamente distinta (hielo/glaciares en vez de montaña). Al adaptar el script original se encontraron y resolvieron dos problemas reales de los datos entregados: las rutas de archivos precalculados del autor no existían (se recalculó la climatología directamente de los datos crudos) y el dominio de Groenlandia no traía coordenadas lon/lat explícitas (se derivaron con `pyproj` a partir de la proyección incluida en los archivos). Groenlandia tampoco cuenta con un dataset de observaciones, por lo que ahí la comparación se hace entre REF y DS, no contra observaciones.
 
 ## Autor
 
