@@ -12,12 +12,12 @@ Este repositorio replica tres piezas clave del artículo original de GeoDS:
 
 ## Autor
 
-**Sebastián Chancusig** — estudiante de Ingeniería Civil, quinto semestre, Escuela Politécnica Nacional (EPN). Proyecto desarrollado en el marco de una pasantía preprofesional.
+**Sebastián Chancusig**  estudiante de Ingeniería Civil, quinto semestre, Escuela Politécnica Nacional (EPN). Proyecto desarrollado en el marco de una pasantía preprofesional.
 
 ## Créditos
 
-- **Ing. Marcos Villacís Erazo, PhD** — tutor de la pasantía, Profesor Titular, Facultad de Ingeniería Civil y Ambiental (FICA), Escuela Politécnica Nacional. Por la oportunidad y la guía durante el desarrollo del proyecto.
-- **Brenner et al.** — autores del modelo GeoDS original y del artículo publicado en *Geoscientific Model Development*, en el que se basa esta replicación.
+- **Ing. Marcos Villacís Erazo, PhD** tutor de la pasantía, Profesor Titular, Facultad de Ingeniería Civil y Ambiental (FICA), Escuela Politécnica Nacional. Por la oportunidad y la guía durante el desarrollo del proyecto.
+- **Brenner et al.**  autores del modelo GeoDS original y del artículo publicado en *Geoscientific Model Development*, en el que se basa esta replicación.
 
 ## Estructura del repositorio
 
